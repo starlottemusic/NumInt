@@ -62,7 +62,7 @@ else
 end
 
 % Ensure heights_g has the same size as heights_f
-if numel(heights_g) == 1
+if isscalar(heights_g)
     heights_g = heights_g * ones(size(heights_f));
 end
 
