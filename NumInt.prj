@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="2952826166" file="C:\Users\Star\Documents\GitHub\NumInt\NumInt.prj" location="C:\Users\Star\Documents\GitHub\NumInt" name="NumInt" preferred-package-location="C:\Users\Star\Documents\GitHub\NumInt\NumInt\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="715554822" file="C:\Users\Star\Documents\GitHub\NumInt\NumInt.prj" location="C:\Users\Star\Documents\GitHub\NumInt" name="NumInt" preferred-package-location="C:\Users\Star\Documents\GitHub\NumInt\NumInt\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>NewMint</param.appname>
     <param.icon>${PROJECT_ROOT}\NumInt_resources\icon.ico</param.icon>
     <param.icons>
@@ -8,7 +8,7 @@
       <file>${PROJECT_ROOT}\NumInt_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\NumInt_resources\icon_16.png</file>
     </param.icons>
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark>AG, CC, &amp; KK</param.authnamewatermark>
     <param.email />
     <param.company />
@@ -48,7 +48,6 @@
 	 -?  print help on how to use the application 
 	 input arguments</param.help.text>
     <unset>
-      <param.version />
       <param.email />
       <param.company />
       <param.description />
